@@ -933,6 +933,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f2cc38e8fa666e2de3c4aba7edeb5ffc5246c1c2ed0e3d17e560aeeba736b23f"
 
 [[package]]
+name = "rusty-snake"
+version = "1.0.0"
+dependencies = [
+ "env_logger",
+ "log",
+ "rand",
+ "rocket",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "ryu"
 version = "1.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1073,18 +1085,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e113fb6f3de07a243d434a56ec6f186dfd51cb08448239fe7bcae73f87ff28ff"
 dependencies = [
  "version_check",
-]
-
-[[package]]
-name = "starter-snake-rust"
-version = "1.0.0"
-dependencies = [
- "env_logger",
- "log",
- "rand",
- "rocket",
- "serde",
- "serde_json",
 ]
 
 [[package]]

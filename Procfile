@@ -1,1 +1,1 @@
-web: ./target/release/starter-snake-rust
+web: ./target/release/rusty-snake
